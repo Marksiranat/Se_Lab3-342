@@ -10,7 +10,7 @@
         filled
         v-model="name"
         label="=ชื่อ  *"
-        hint="ชื่อ-สกุล"
+        hint="ชื่อ-สกุล3"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'เขียนดีๆล่ะ!!']"
       />
