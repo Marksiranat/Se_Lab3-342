@@ -6,20 +6,28 @@
       @reset="onReset"
       class="q-gutter-md"
     >
+    <q-input
+        filled
+        v-model="name"
+        label="=ชื่อ  *"
+        hint="ชื่อ-สกุล"
+        lazy-rules
+        :rules="[ val => val && val.length > 0 || 'เขียนดีๆล่ะ!!']"
+      />
       <q-input
         filled
         v-model="name"
-        label="สวัสดี ชื่อนะ"
-        hint="ชื่อ-สกุลนะ"
+        label="Your name *"
+        hint="Name and surname"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'เขียนดีๆล่ะ!!']"
+        :rules="[ val => val && val.length > 0 || 'NOOOO'']"
       />
 
       <q-input
         filled
         type="number"
         v-model="age"
-        label="Your age *"
+        label="愛你 *"
         lazy-rules
         :rules="[
           val => val !== null && val !== '' || 'Please type your age',
