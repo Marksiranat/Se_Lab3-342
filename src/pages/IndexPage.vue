@@ -13,7 +13,7 @@
         label="MARK 002 *"
         hint="มาร์คคึเอง"
         lazy-rules
-        :rules="[ val => val && val.length > 0 || 'NOOOO'']"
+        :rules="[ val => val && val.length > 0 || 'SJM'']"
       />
 
       <q-input
