@@ -17,7 +17,7 @@
       <q-input
         filled
         v-model="name"
-        label="Your name *"
+        label="MARK 002 *"
         hint="Name and surname"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'NOOOO'']"
