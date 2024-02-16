@@ -6,19 +6,12 @@
       @reset="onReset"
       class="q-gutter-md"
     >
-    <q-input
-        filled
-        v-model="name"
-        label="=ศิระณัฐ จันทะกี"
-        hint="ชื่อ-สกุล3"
-        lazy-rules
-        :rules="[ val => val && val.length > 0 || 'เขียนดีๆล่ะ!!']"
-      />
+    
       <q-input
         filled
         v-model="name"
         label="MARK 002 *"
-        hint="Name and surname"
+        hint="มาร์คคึเอง"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'NOOOO'']"
       />
