@@ -30,8 +30,8 @@
         label="愛你 *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'Please type your age',
-          val => val > 0 && val < 100 || 'Please type a real age'
+          val => val !== null && val !== '' || 'Please 555555555555555',
+          val => val > 0 && val < 100 || 'MONPT'
         ]"
       />
 
